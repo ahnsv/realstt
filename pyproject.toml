@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "realstt"
+version = "0.1.0"
+description = ""
+authors = ["ahnsv <ahnsv@bc.edu>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+openai-whisper = "^20230124"
+bentoml = "^1.0.13"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
