@@ -8,4 +8,3 @@ saved_model = bentoml.pytorch.save_model("whisper", model, labels={
 }, signatures={"__call__": {"batchable": True, "batch_dim": 0}}, )
 
 print(saved_model)
-j
